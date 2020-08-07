@@ -1,0 +1,9 @@
+name: XtrmMcBeta
+version: ${project.version}
+main: net.xtrmmc.xtrmmcbeta.Xtrmmcbeta
+api-version: 1.15
+authors: [ItsKlork]
+commands:
+  testparkour:
+    usage: /<command>
+    description: lol
