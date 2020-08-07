@@ -18,6 +18,8 @@ public class RegionEnter implements Listener {
 
     @EventHandler
     public void onRegionEnter(RegionEnteredEvent event) {
+
+        // Getting the region name and checking if it's a checkpoint or the finish region!
         switch (event.getRegionName()) {
             case "cp1": {
                 if (plugin.parkourGameManager.parkourPlayerHandler.getCP(event.getPlayer().getUniqueId()) < 1) {
