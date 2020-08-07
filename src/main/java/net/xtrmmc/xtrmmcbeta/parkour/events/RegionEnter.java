@@ -26,6 +26,8 @@ public class RegionEnter implements Listener {
                     int place = plugin.parkourGameManager.parkourPlayerHandler.getPlayerPlaceInCP(event.getPlayer().getUniqueId(), 1);
                     event.getPlayer().sendMessage(ChatColor.DARK_GRAY + "[" + ChatColor.DARK_PURPLE + "Parkour" + ChatColor.DARK_GRAY + "]" + ChatColor.GREEN + " Checkpoint! " + ChatColor.DARK_GREEN + "(You are the " + place + " to get here!)");
                     event.getPlayer().playSound(event.getPlayer().getLocation(), Sound.ENTITY_PLAYER_LEVELUP, SoundCategory.MASTER, 1, 1);
+
+                    // Add points
                 }
                 break;
             }
@@ -36,6 +38,8 @@ public class RegionEnter implements Listener {
                     int place = plugin.parkourGameManager.parkourPlayerHandler.getPlayerPlaceInCP(event.getPlayer().getUniqueId(), 2);
                     event.getPlayer().sendMessage(ChatColor.DARK_GRAY + "[" + ChatColor.DARK_PURPLE + "Parkour" + ChatColor.DARK_GRAY + "]" + ChatColor.GREEN + " Checkpoint! " + ChatColor.DARK_GREEN + "(You are the " + place + " to get here!)");
                     event.getPlayer().playSound(event.getPlayer().getLocation(), Sound.ENTITY_PLAYER_LEVELUP, SoundCategory.MASTER, 1, 1);
+
+                    // Add points
                 }
                 break;
             }
@@ -46,6 +50,8 @@ public class RegionEnter implements Listener {
                     int place = plugin.parkourGameManager.parkourPlayerHandler.getPlayerPlaceInCP(event.getPlayer().getUniqueId(), 3);
                     event.getPlayer().sendMessage(ChatColor.DARK_GRAY + "[" + ChatColor.DARK_PURPLE + "Parkour" + ChatColor.DARK_GRAY + "]" + ChatColor.GREEN + " Checkpoint! " + ChatColor.DARK_GREEN + "(You are the " + place + " to get here!)");
                     event.getPlayer().playSound(event.getPlayer().getLocation(), Sound.ENTITY_PLAYER_LEVELUP, SoundCategory.MASTER, 1, 1);
+
+                    // Add points
                 }
                 break;
             }
@@ -56,6 +62,8 @@ public class RegionEnter implements Listener {
                     int place = plugin.parkourGameManager.parkourPlayerHandler.getPlayerPlaceInCP(event.getPlayer().getUniqueId(), 4);
                     event.getPlayer().sendMessage(ChatColor.DARK_GRAY + "[" + ChatColor.DARK_PURPLE + "Parkour" + ChatColor.DARK_GRAY + "]" + ChatColor.GREEN + " Checkpoint! " + ChatColor.DARK_GREEN + "(You are the " + place + " to get here!)");
                     event.getPlayer().playSound(event.getPlayer().getLocation(), Sound.ENTITY_PLAYER_LEVELUP, SoundCategory.MASTER, 1, 1);
+
+                    // Add points
                 }
                 break;
             }
